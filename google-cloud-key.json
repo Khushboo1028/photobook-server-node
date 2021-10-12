@@ -1,12 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "photobook-328621",
-  "private_key_id": "9d2c3ab823455199433a1b2be8f36a3ccd4e3384",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC250eufmCrAiiW\nXhFS4xXqxhiBwuqyUvKEDVfGzLrZymsFyYdIUzig+MjoQYQOO+gDwxaX/XmsB3gE\nf52Ef0FqOHudTsVY9Yl/54JadHn+/XISDUq1eNf+kW9jv4k2okpQj9z8Bj585LPa\n084qhFX9Vucj4jv3VMs0E7auXZEb+ymCsLbV3dRXFn4wcTSMQoxoYtHon9XCMn/I\nMdYl9vmv0dJIGk4JskbyIHtfq1fJK+WD8FxOcjV1nZnBTXMEVPcmLRGIN3pyeAL1\n2B/uIhzEKVDbrszffSHZN1TYRUpvQBDbA4ylUdVFMQzCgtlv3E13gmHaukuAT8Aa\nceV0ZJU7AgMBAAECggEAUjW4WW0CZDrvJU8YuEnLox/xCfojZY205bfdmUSSQ6wg\n2JQRk2ecj3XjT8mK4p74lSBN+nj7BGDDCDqYAWL1cxn6LeWm/Go4qF3VkHTEFOG0\nMPr6doDfjNOv3oTL1tuxTW6sZDcmRRrC4HvNMf0TbXBvKgjY7T2WrEykEtGJlKpX\n+AzBAw4n05ZUFdRMZLfOKtWcnSLeLT05f3q+YW5yA4gmsO1UJtD0XxP84thjGlVE\n246zukl3ZHnBh/7gXRXBT7D/EQHPEr4M9JW3MGQmNSttjrjnsPXZnzQCHXyuVYTA\n2AtJJ0D/jVKINupvS9hnanRkPJjfpk7ilT9Gd5BtoQKBgQDhmzSvXPdrntiUy6MZ\npJ2XpT2jvlprwYClXkupg6PWIX2KHnHzaGMQumYLSd3VH36Yo0xnq9qUNI7XZx8y\nTAV5Wdg78839/MbUUvtIQAwtXVsm9egkrvT/soQDnv8ANNwiWE3MnVS2iJfJXNva\nQSChFAeESYLBXPdkLUislJr2CwKBgQDPi1KeJvImsMQ8qoJj7p8Hs8pyO3us+Mhj\n6SdqiTOfbrYVl1v9Hh1cVaNocFkeAGo5betSE7DGUffk4d9og8QSo4a0CKrxfeCr\noMefN07PZl+78T5d66vSHmDHkYecPWe+ZG5AJNKtO/fHJuIHyuOWUwWEv8NVwg67\npNa7r95LkQKBgQC9buolGWWzWxS2k+qmnH+rFpeUR0B7XGZd9LiJZLyMD2DvObMq\n1Ariv/DxJ5v52VEeb3e3USje6ubJ3Y/nVsf95j/Xz1a3HqoBHJBcUVMoQExKgY7k\nRnf3v/hzZezuSnRQ7l6dIbpA7p6s+KiuMaNpPX02Sddd72bXGeL87mbTkwKBgAnd\nWmjv+vSB1GH5zMbJMb/g+M9jKma3UHcHPvteWBjM31S5ZALs6oJYA7NUG7hEVsgy\nBExbaTyT6s9zOPYzxR8JrL5j5xQhYotl0fcsXs+W0xgQyGEYcYtELF9v+F0hwguX\npHHiDi1zuzw5CedK6nRbr9h2cOdjmOWsWRSEsHExAoGAG2HvtLbHxEadF/AojLek\n8cT1vM3gA7hWy2d3r//rLf+dYsgbR4L6668FhFVvnKdFf89Z2dWcBy1SzdXb7wzD\nPiiRH6MKwCZf3j7VzDOC4WayvtscQe2kkg4Beq4gas/ZvMqE/SZwjiBRh+oBU94S\n2p4acoFzn5VbFQa00wkegPw=\n-----END PRIVATE KEY-----\n",
-  "client_email": "photobook-service@photobook-328621.iam.gserviceaccount.com",
-  "client_id": "117814107226970875479",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/photobook-service%40photobook-328621.iam.gserviceaccount.com"
-}
+
