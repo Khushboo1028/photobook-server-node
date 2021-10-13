@@ -6,6 +6,7 @@ let corsOptions = {
   origin: "http://localhost:8081",
 };
 
+// app.use(express.json());
 app.use(cors(corsOptions));
 
 const initRoutes = require("./src/routes");

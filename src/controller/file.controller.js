@@ -1,6 +1,7 @@
 const processFile = require("../middleware/upload");
 const { format } = require("util");
 const { Storage } = require("@google-cloud/storage");
+const { BlockList } = require("net");
 // Instantiate a storage client with credentials
 const storage = new Storage({ keyFilename: "google-cloud-key.json" });
 const bucket = storage.bucket("khushboo-photo-bucket");
@@ -15,8 +16,30 @@ const upload = async (req, res) => {
 
     // Create a new blob in the bucket and upload the file data.
     const blob = bucket.file(req.file.originalname);
+    // const metadata = {
+    //   metadata: {
+    //     contentType: "test",
+    //     metadata: {
+    //       foo: "bar",
+    //     },
+    //   },
+    // };
+    // try {
+    //   await blob.setMetadata(metadata);
+    // } catch (err) {
+    //   console.log(err);
+    // }
+
     const blobStream = blob.createWriteStream({
       resumable: false,
+      metadata: {
+        contentType: req.file.mimetype,
+        metadata: {
+          location: "bar",
+          photographerName: "Khushboo",
+          dateClicked: "24-06-2021",
+        },
+      },
     });
 
     blobStream.on("error", (err) => {
